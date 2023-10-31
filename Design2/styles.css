@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  background: #f2f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+.card {
+  background-color: #fff;
+  max-width: 400px;
+  border-radius: 12px;
+}
+.image-container {
+  height: 220px;
+}
+.image {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.body {
+  padding: 2em 2em 0;
+  background: url(white-overlay.svg);
+  position: relative;
+  top: -1em;
+}
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #111729;
+  margin: 2em 0 0.5em;
+}
+.description {
+  color: #677489;
+  margin: 0 0 1.5em;
+}
+.media {
+  display: flex;
+  align-items:center;
+  gap: 1em;
+  padding-top: 1.5em;
+}
+.imageM {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.titleM {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #111729;
+}
+.positionM {
+  color: #677489;
+  margin-top: 0;
+}
