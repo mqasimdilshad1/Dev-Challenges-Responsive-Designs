@@ -88,12 +88,10 @@ ul li{
         padding-left: 20px;
     }
   .box1{
-        padding-right: 0px;
-        margin-left: 38px;
-        width: 270px;
+        margin-left: 250px;
+        width: 18rem;
   }
   .box2{
-    padding-right: 0px;
-    margin-left: -5px;
+    margin-left: 10px;
   }
 }
