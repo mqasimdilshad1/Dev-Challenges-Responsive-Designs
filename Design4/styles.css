@@ -105,6 +105,18 @@
     flex-direction: column;
     gap: 3px;
   }
+  select{
+    appearance: none;
+    background: no-repeat right;
+    background-origin: content-box, padding-box;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    color: #111729;
+    padding: 16px;
+    border: none;
+    border-radius: 16px;
+    font-weight: bold;
+  }
 
   @media screen and (max-width: 1024px){
     
