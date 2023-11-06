@@ -33,8 +33,7 @@ body {
 .card img {
   width: 100%;
 }
-
-.tag {
+.card span{
   width: 100px;
   padding: 6px;
   font-size: 0.6rem;
@@ -44,7 +43,10 @@ body {
   border-radius: 20px;
   text-align: center;
   margin-top: 16px;
+
 }
+
+
 
 .title {
   margin-top: 16px;
@@ -69,7 +71,7 @@ body {
   .card { 
     width: 50%;
   }
-  .tag {
+  .card span {
     width: 100%;
   }
 }
