@@ -16,10 +16,10 @@ body{
     padding: 0.5rem;
     border-radius: 100%;
 }
-.review-Content h1{
+.review-content h1{
     font-size: 2.25rem;
 }
-.review-Content p{
+.review-content p{
     font-size: 1.25rem;
     color: #52525A;
 }
@@ -38,30 +38,31 @@ ul li{
 .reviews{
     width: 45%;
     margin-top: 9rem;
+    margin-bottom: 9rem;
 }
-.box1,.box2{
+.google-box,.meta-box{
     background-color: white;
     height: 7rem;
     width: 18rem;
     padding: 2rem;
     border-radius: 1rem;
 }
-.box1{
-    margin: 1rem 0 1rem 15rem;
+.google-box{
+    margin: 1rem 0 4rem 15rem;
 }
 .review-header{
     display: flex;
 }
-.companyname{
+.company-name{
     width: 8rem;
 }
-.companyname img{
+.company-name img{
     width: 80%;
 }
 .rating{
     display: flex;
 }
-.reviewbody h1{
+.review-body h1{
     font-size: 1rem;
 }
 
@@ -87,11 +88,11 @@ ul li{
         flex-direction: column;
         padding-left: 20px;
     }
-  .box1{
+  .google-box{
         margin-left: 250px;
         width: 18rem;
   }
-  .box2{
+  .meta-box{
     margin-left: 10px;
   }
 }
