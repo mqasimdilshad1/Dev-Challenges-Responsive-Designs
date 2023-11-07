@@ -8,9 +8,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="icon">
-        <img class="icon" src="./contact-form-icon.svg" />
-      </div>
+        <img class="icon" src="./contact-form-icon.svg"/>
       <div class="main">
         <div class="headings">
           <div class="heading1"><p>Interested in our business pricing?</p></div>
@@ -22,63 +20,69 @@
           </div>
         </div>
       </div>
-        <form class="form1">
-            <div class="gridd">
-                <label for="name">
-                    <span style="color: white ; opacity: 0.8; margin-left: 5px;font-family: Arial, Helvetica, sans-serif;font-size: 14px;">Name</span>
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Ethan Johnson"
-                  required
-                  class="name"
-                />
-            </div>
-  
-        <div class="gridd">
-                <label for="name">
-                    <span style="color: white ; opacity: 0.8; margin-left: 5px;font-family: Arial, Helvetica, sans-serif;font-size: 14px;">Company Email</span>
-                </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="ethan@johnson.com"
-              required
-              class="email"
-            />
+      <form class="form">
+        <div class="grid">
+          <label for="name">
+            <span>Name</span>
+          </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Ethan Johnson"
+            required
+            class="name"
+          />
         </div>
 
-        <div class="gridd">
-            <label for="name">
-                <span style="color: white ; opacity: 0.8; margin-left: 5px; font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Company Size</span>
-            </label>
-         
-            <select class="size-dropdown">
+        <div class="grid">
+          <label for="name">
+            <span>Company Email</span>
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="ethan@johnson.com"
+            required
+            class="email"
+          />
+        </div>
+
+        <div class="grid">
+          <label for="name">
+            <span>Company Size</span>
+          </label>
+
+          <select class="size-dropdown">
             <label for="dropdown">Company Size</label>
-              <option value="50-100">50-100 Employees</option>
-              <option value="100-200">100-200 Employees</option>
-              <option value="200+">200+ Employees</option>
-            </select>
-
-        </div>    
-  
-        <div class="gridd">
-            <label for="name">
-                <span style="color: white ; opacity: 0.8; margin-left: 5px;font-family: Arial, Helvetica, sans-serif;font-size: 14px;">Subject</span>
-            </label>
-            <select class="subject-dropdown">
-              <option value="page1">Building Landing pages</option>
-              <option value="page2">Building Responsive pages</option>
-            </select>
+            <option value="50-100">50-100 Employees</option>
+            <option value="100-200">100-200 Employees</option>
+            <option value="200+">200+ Employees</option>
+          </select>
         </div>
 
-            <textarea id="Textarea" class="textarea" name="textarea" placeholder="50-100 employees" rows="4" cols="50"></textarea>
-            <button class="sales-btn">Contact Sales</button>
-          </form>
-          <br><br><br><br>
-      </div>
+        <div class="grid">
+          <label for="name">
+            <span>Subject</span>
+          </label>
+          <select class="subject-dropdown">
+            <option value="page1">Building Landing pages</option>
+            <option value="page2">Building Responsive pages</option>
+          </select>
+        </div>
+
+        <textarea
+          id="Textarea"
+          class="textarea"
+          name="textarea"
+          placeholder="50-100 employees"
+          rows="4"
+          cols="50"
+        ></textarea>
+        <button class="sales-btn">Contact Sales</button>
+      </form>
+      
+    </div>
   </body>
 </html>
