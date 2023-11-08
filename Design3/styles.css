@@ -38,7 +38,6 @@ ul li{
 .reviews{
     width: 45%;
     margin-top: 9rem;
-    margin-bottom: 9rem;
 }
 .google-box,.meta-box{
     background-color: white;
@@ -48,7 +47,7 @@ ul li{
     border-radius: 1rem;
 }
 .google-box{
-    margin: 1rem 0 4rem 15rem;
+    margin: 1rem 0 1rem 15rem;
 }
 .review-header{
     display: flex;
@@ -89,10 +88,12 @@ ul li{
         padding-left: 20px;
     }
   .google-box{
-        margin-left: 250px;
-        width: 18rem;
+        padding-right: 0px;
+        margin-left: 38px;
+        width: 270px;
   }
   .meta-box{
-    margin-left: 10px;
+    padding-right: 0px;
+    margin-left: -5px;
   }
 }
