@@ -1,0 +1,231 @@
+@import url('https://fonts.google.com/specimen/Be+Vietnam+Pro');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url('./bg-image.svg'); 
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat: no-repeat; 
+  }
+  .form ,.grid lable span {
+    color: white;
+    opacity: 0.8;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+  .container {
+    height: 300px;
+    margin: 0 auto;
+}
+
+  .icon{
+    margin-left:30px;
+    margin-top: 10px;
+    
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 25px;
+
+  }
+  .headings{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    align-content: space-between;
+  }
+  .heading1{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-family: "Be Vietnam Pro",sans-serif; 
+    text-align: center;
+    width:17ch;
+      
+  }
+  .heading2{
+    font-size: 32px;
+    color: #FFFFFF;
+    font-family: "Be Vietnam Pro",sans-serif;
+    text-align: center;
+    width: 33ch;
+  }
+  .form{
+    background-color: #cdd5e054;
+    border-radius: 2rem;
+    width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 70px 70px 30px 70px;
+    grid-gap: 10px;
+    gap:25px;
+  }
+  .sales-btn{
+    padding:15px 0 15px 0;
+    color:#4036A9;
+    font-size: 20px;
+    font-family: "Be Vietnam Pro";
+    border-radius: 15px;
+    grid-column: 1 / span 2;
+    font-weight: bold;
+  }
+  .name{
+    border-radius: 15px;
+    padding-left: 10px;
+    padding: 23px;
+  }
+  .email{
+    border-radius: 15px;
+    padding-left: 10px;
+    padding: 23px;
+  }
+  .textarea{
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bolder;
+    grid-column: 1 /span 2;
+    grid-row: 3 / span 4;
+  }
+  .size-dropdown{
+    border-radius: 15px;
+    padding-left: 10px;
+    padding: 23px;
+    background-image: url('Expand_down.svg');
+  }
+  .subject-dropdown{
+    border-radius: 15px;
+    padding-left: 10px;
+    padding:23px;
+    background-image: url('Expand_down.svg');
+  }
+  .grid{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  select{
+    appearance: none;
+    background: no-repeat right;
+    background-origin: content-box, padding-box;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    color: #111729;
+    padding: 16px;
+    border: none;
+    border-radius: 16px;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 1024px){
+    
+    .form{
+        width: 90%;
+        gap: 25px;
+    }
+    .container{
+        width: 100%;
+    }
+    .icon{
+        margin-left: 20px;
+    }
+    .heading1 {
+        font-size: 40px; 
+        width:17ch;
+        margin-bottom: 13px;
+      }
+    
+      .heading2 {
+        font-size: 18px; 
+        width:32ch;
+        margin-bottom: 15px;
+      }
+      .grid lable span {
+        color: white;
+        opacity: 0.8;
+        margin-left: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+
+}
+
+  }
+
+
+@media screen and (max-width: 640px) {
+    .form {
+      width: 90%; 
+      grid-template-columns: 1fr; 
+      grid-template-rows: auto auto auto auto auto auto; 
+      min-width: 300px;
+      grid-gap: 15px;
+      gap: 15px;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .size-dropdown,
+    .subject-dropdown,name,email { 
+      width: 100%;
+    }
+    .subject-dropdown{
+        margin-bottom: 20px;
+    }
+  
+    .grid {
+      gap: 2px; 
+    }
+  
+    .icon {
+      margin-left: 5px; 
+      margin-bottom: 20px;
+    }
+  
+    .heading1 {
+      font-size: 36px; 
+      width: auto; 
+    }
+  
+    .heading2 {
+      font-size: 24px; 
+      width: auto; 
+    }
+    .container {
+        padding: 0 10px; 
+    }
+    .main {
+        flex-direction: column; 
+        text-align: center;
+    }
+    .sales-btn {
+        grid-column: 1 / span 1; 
+    }
+
+    .name, .email, .size-dropdown, .subject-dropdown, .textarea {
+        grid-column: auto;
+        grid-row: auto;
+    }
+    .textarea{
+        padding: 40px;
+    }
+    .grid lable span {
+                color: white;
+                opacity: 0.8;
+                margin-left: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+
+    }
+
+
+  }
+  
